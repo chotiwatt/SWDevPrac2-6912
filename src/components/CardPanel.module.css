@@ -1,0 +1,8 @@
+.panel { max-width: 1100px; margin: 36px auto 0; padding: 0 24px; }
+.cards { display: grid; gap: 24px; grid-template-columns: repeat(3, 1fr); }
+.ratingList { margin-top: 38px; border-radius: 12px; background: white; box-shadow: 0 3px 12px #1f23501a; padding: 24px; }
+.ratingList h2 { margin-bottom: 6px; }
+.ratingList > p { color: #6c7180; margin-bottom: 16px; }
+.ratingItem { display: block; width: 100%; margin-top: 8px; border: 0; border-radius: 8px; background: #f0edfc; color: #35247d; cursor: pointer; font: inherit; padding: 12px 14px; text-align: left; }
+.ratingItem:hover { background: #e4ddfb; }
+@media (max-width: 760px) { .cards { grid-template-columns: 1fr; } }
